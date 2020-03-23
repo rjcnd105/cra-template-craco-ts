@@ -5,5 +5,5 @@ cra --template typescript + craco + emotion + ts + prettier + hot-module
 
 #### Usage
 ```shell script
-npx create-react-app my-app --template craco-ts-prettier
+npx create-react-app my-app --template craco-ts
 ```
