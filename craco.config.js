@@ -11,5 +11,10 @@ module.exports = function({ env, paths }) {
     babel: {
       plugins: [...emotionBabelPreset.plugins],
     },
+    webpack: {
+      alias: {
+        'react-dom': '@hot-loader/react-dom',
+      },
+    },
   }
 }

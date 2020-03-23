@@ -1,5 +1,4 @@
-import colors from './colors'
-import distance from './distance'
-import shadow from './shadow'
+import global from './global'
+import reset from './reset'
 
-export default { colors, distance, shadow }
+export default { reset, global }
