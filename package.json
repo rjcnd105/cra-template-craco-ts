@@ -1,6 +1,6 @@
 {
   "name": "cra-template-craco-ts",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "template.json",
   "keywords": [
     "react",
@@ -17,10 +17,10 @@
     ",template.json"
   ],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
     "clean-files": "rm -rf ./template/public ./template/src && rm -f ./template/.eslintrc",
     "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp .eslintrc template/",
     "prepublishOnly": "yarn clean-files && yarn copy-files",
