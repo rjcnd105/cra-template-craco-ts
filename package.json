@@ -14,7 +14,7 @@
   ],
   "files": [
     "template",
-    ",template.json"
+    "template.json"
   ],
   "scripts": {
     "start": "craco start",
