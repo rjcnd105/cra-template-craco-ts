@@ -1,6 +1,6 @@
 {
   "name": "cra-template-craco-ts",
-  "version": "1.3.0",
+  "version": "1.3.13",
   "main": "template.json",
   "keywords": [
     "react",
