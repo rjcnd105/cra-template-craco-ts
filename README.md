@@ -1,7 +1,7 @@
 ### 진짜 매번 똑같은거 만드는거 너무 귀찮아서 템플릿 만듦
 
 #### 완전 기본 세팅임
-cra --template typescript + craco + emotion + lint + prettier + hot-module
+cra typescript + craco + emotion + lint + prettier + hot-module
 
 #### Usage
 ```shell script
